@@ -84,9 +84,12 @@ public class MainActivity extends AppCompatActivity {
 
     private void createExampleList(){
         itemList = new ArrayList<>();
-        itemList.add(new ExampleItem(R.drawable.ic_android, "Android Gal", "Select for Android info"));
-        itemList.add(new ExampleItem(R.drawable.ic_audiotrack, "Music Gal", "Select for Music info"));
-        itemList.add(new ExampleItem(R.drawable.ic_beach_access, "Beach Gal", "Select for Beach info"));
+        itemList.add(new ExampleItem(R.drawable.ic_android, "Android Gal",
+                "Select for Android info"));
+        itemList.add(new ExampleItem(R.drawable.ic_audiotrack, "Music Gal",
+                "Select for Music info"));
+        itemList.add(new ExampleItem(R.drawable.ic_beach_access, "Beach Gal",
+                "Select for Beach info"));
 
 
     }
